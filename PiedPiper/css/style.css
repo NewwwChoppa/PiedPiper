@@ -1,0 +1,189 @@
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/roboto-v27-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v27-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-500italic - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+  src: local(""),
+    url("../fonts/roboto-v27-latin-500italic.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v27-latin-500italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/roboto-v27-latin-500.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v27-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/roboto-v27-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v27-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+header {
+  background-color: #007765;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.logo {
+  margin: 20px 0;
+}
+.container {
+  width: 1109px;
+  margin: 0 auto;
+  padding: 0 55px;
+}
+.nav {
+  float: right;
+  margin-top: 29px;
+  margin-bottom: 26px;
+}
+.nav li {
+  display: inline-block; /*один из способов разместить элементы в строку*/
+  font-size: 24px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+}
+.nav a {
+  text-decoration: none;
+  color: #fff;
+}
+.card {
+  background-image: url("../img/png/greenlines.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 89px;
+  height: 403px;
+  max-width: 100%;
+}
+.pipernet {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  color: #fff;
+  text-align: center;
+  padding: 160px 0;
+}
+.the_problem {
+  background-color: #eeeeee;
+}
+.problem_header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  color: #007765;
+  text-align: center;
+}
+.problem_par {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 32px;
+  padding-bottom: 80px;
+}
+.together {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  text-align: center;
+  color: #fff;
+}
+.third_block {
+  background-image: url("../img/png/bluelines.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.PPClogo {
+  float: left;
+  margin: 10px 30px;
+}
+.coin_header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  color: #007765;
+  text-align: center;
+}
+.coin_par {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+}
+.team_header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  color: #007765;
+  text-align: center;
+}
+.team {
+  background-color: #eeeeee;
+}
+.name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #007765;
+  text-align: center;
+}
+.job {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: -15px;
+  text-align: center;
+}
+.pers {
+  margin: 50px 50px 80px 105px;
+  align-content: center;
+  display: inline-block;
+}
+.pers2 {
+  margin: 50px 50px 80px 110px;
+  align-content: center;
+  display: inline-block;
+}
+.pic {
+  align-content: center;
+}
+footer {
+  background-color: #333333;
+}
+.footer {
+  color: #fff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 52px;
+  padding-bottom: 62px;
+}
